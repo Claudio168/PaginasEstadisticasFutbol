@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(46, 45, 45);
+   }
+   h2{ 
+       color: beige;
+       margin-left: 5px;
+   }
+   label{ 
+       color: beige;
+       margin-left: 5px;
+   }
+   a{
+       margin: 5px;
+   }
+   div {
+       border: solid 1px;
+       padding-bottom: 20px;
+   }
+   img{
+       margin: 10px;
+   }
+   a{
+       text-decoration: none;
+       color: beige;
+   }
+   @media only screen and (max-width: 600px) {
+       label{
+            display: none;
+       }
+       #encabezado{
+           display: none;
+       }
+   }

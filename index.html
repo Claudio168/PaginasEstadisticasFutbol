@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>estadisticas</title>
+    <link rel="stylesheet" href="estilios.css">
+    
+</head>
+<body>
+    <div id="encabezado">
+        <a href="#chile">Chile</a><a href="#inglaterra">Inglaterra</a><a href="#españa">España</a><a href="#italia">Italia</a><a href="#argentina">Argentina</a>
+        <a href="#alemania">Alemania</a><a href="#francia">Francia</a><a href="#mexico">Mexico</a>  <a href="#brasil">Brasil</a><a href="#colombia">Colombia</a>
+        <a href="#portugal">Portugal</a>
+
+    </div>
+
+    <div>
+        <h2> Football predictions.net </h2>
+        <label>Equipo 1</label> <input id="local" type="text" placeholder="Ingresa el equipo 1...">
+        <label>Equipo 2</label> <input id="visita" type="text" placeholder="Ingresa el equipo 2..."> <button onclick="consultaPartido()">Consultar</button>
+        <br><br>  
+    </div>
+    <div>
+        <br>
+        <a href="https://www.flashscore.cl/" target="_blank">flashscore.cl</a>
+        <br>
+    </div>
+    
+    <div id="chile">
+       
+        <img
+        src="https://flagcdn.com/32x24/cl.png"
+        srcset="https://flagcdn.com/64x48/cl.png 2x,
+            https://flagcdn.com/96x72/cl.png 3x"
+        width="32"
+        height="24"
+        alt="Chile"><br>    
+        <a href="https://footballpredictions.net/es/predicciones-datos-campeonato-nacional_chile" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/chi-primera-division/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/90757" target="_blank">Estadisticas</a>
+    </div>
+    <div id="inglaterra">
+       
+        <img
+        src="https://flagcdn.com/32x24/gb-eng.png"
+        srcset="https://flagcdn.com/64x48/gb-eng.png 2x,
+            https://flagcdn.com/96x72/gb-eng.png 3x"
+        width="32"
+        height="24"
+        alt="Inglaterra"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-premier-league_england" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/eng-premier-league/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/93741" target="_blank">Estadisticas</a>
+    </div>
+    <div id="españa">
+       
+        <img
+        src="https://flagcdn.com/32x24/es.png"
+        srcset="https://flagcdn.com/64x48/es.png 2x,
+            https://flagcdn.com/96x72/es.png 3x"
+        width="32"
+        height="24"
+        alt="España"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-la-liga_spain" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/94215" target="_blank">Estadisticas</a>
+        
+    </div>
+    <div id="italia">
+       
+        <img
+        src="https://flagcdn.com/32x24/it.png"
+        srcset="https://flagcdn.com/64x48/it.png 2x,
+            https://flagcdn.com/96x72/it.png 3x"
+        width="32"
+        height="24"
+        alt="Italia"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-serie-a_italy" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/ita-serie-a/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/category/31" target="_blank">Estadisticas</a>
+    </div>
+    <div id="argentina">
+       
+        <img
+        src="https://flagcdn.com/32x24/ar.png"
+        srcset="https://flagcdn.com/64x48/ar.png 2x,
+            https://flagcdn.com/96x72/ar.png 3x"
+        width="32"
+        height="24"
+        alt="Argentina"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-superliga_argentina" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/arg-primera-division/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/93847" target="_blank">Estadisticas</a>
+    </div>
+    <div id="alemania">
+       
+        <img
+        src="https://flagcdn.com/32x24/de.png"
+        srcset="https://flagcdn.com/64x48/de.png 2x,
+            https://flagcdn.com/96x72/de.png 3x"
+        width="32"
+        height="24"
+        alt="Alemania"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-bundesliga-1_germany" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/bundesliga/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/93753" target="_blank">Estadisticas</a>
+    </div>
+    <div id="francia">
+       
+        <img
+        src="https://flagcdn.com/32x24/mf.png"
+        srcset="https://flagcdn.com/64x48/mf.png 2x,
+            https://flagcdn.com/96x72/mf.png 3x"
+        width="32"
+        height="24"
+        alt="Francia"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-ligue-1_france" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/fra-ligue-1/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/category/7" target="_blank">Estadisticas</a>
+    </div>
+    <div id="mexico">
+       
+        <img
+        src="https://flagcdn.com/32x24/mx.png"
+        srcset="https://flagcdn.com/64x48/mx.png 2x,
+            https://flagcdn.com/96x72/mx.png 3x"
+        width="32"
+        height="24"
+        alt="México"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-liga-mx-apertura_mexico" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/mex-primera-division/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/category/12" target="_blank">Estadisticas</a>
+    </div>
+    <div id="brasil">
+       
+        <img
+        src="https://flagcdn.com/32x24/br.png"
+        srcset="https://flagcdn.com/64x48/br.png 2x,
+            https://flagcdn.com/96x72/br.png 3x"
+        width="32"
+        height="24"
+        alt="Brasil"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-serie-a_brazil" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/bra-serie-a/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/90975" target="_blank">Estadisticas</a>
+    </div>
+    <div id="colombia">
+       
+        <img
+        src="https://flagcdn.com/32x24/co.png"
+        srcset="https://flagcdn.com/64x48/co.png 2x,
+            https://flagcdn.com/96x72/co.png 3x"
+        width="32"
+        height="24"
+        alt="Colombia"><br>
+        <a href="https://www.flashscore.cl/futbol/colombia/primera-a/" target="_blank">flashscore.cl</a>
+        <a href="https://www.livefutbol.com/competicion/col-primera-a/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/season/80976" target="_blank">Estadisticas</a>
+    </div>
+    <div id="portugal">
+       
+        <img
+        src="https://flagcdn.com/32x24/pt.png"
+        srcset="https://flagcdn.com/64x48/pt.png 2x,
+            https://flagcdn.com/96x72/pt.png 3x"
+        width="32"
+        height="24"
+        alt="Portugal"><br>
+        <a href="https://footballpredictions.net/es/predicciones-datos-primeira-liga_portugal" target="_blank">footballpredictions.net</a>
+        <a href="https://www.livefutbol.com/competicion/por-primeira-liga/" target="_blank">livefutbol.com</a>
+        <a href="https://s5.sir.sportradar.com/betssonsports/es/1/category/44" target="_blank">Estadisticas</a>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>
