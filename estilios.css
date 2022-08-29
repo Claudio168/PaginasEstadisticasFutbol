@@ -23,6 +23,11 @@ body{
        text-decoration: none;
        color: beige;
    }
+   button{
+        color: beige;
+        background-color: blue;
+        padding: 4px;
+   }
    @media only screen and (max-width: 600px) {
        label{
             display: none;
@@ -32,16 +37,23 @@ body{
        }
        button{
         margin-top: 15px;
-        width: 100%
+        font-size: 20px;
+        width: 100%;
+        color: beige;
+        background-color: blue;
+        padding: 10px;
+
        }
        input{
         margin-top: 15px;
-        width: 100%;
-       
+        font-size: 20px;
+        width: 98%;
+        
        }
        a{
         text-decoration: none;
         color: beige;
         font-size: 15px;
        }
+       
    }
