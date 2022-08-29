@@ -39,4 +39,9 @@ body{
         width: 100%;
        
        }
+       a{
+        text-decoration: none;
+        color: beige;
+        font-size: 15px;
+       }
    }
