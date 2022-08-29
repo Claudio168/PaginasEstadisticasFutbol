@@ -30,4 +30,7 @@ body{
        #encabezado{
            display: none;
        }
+       button{
+        margin-top: 15px;
+       }
    }
