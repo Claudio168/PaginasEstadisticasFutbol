@@ -26,7 +26,7 @@ body{
    button{
         color: beige;
         background-color: blue;
-        padding: 4px;
+        padding: 4  px;
    }
    @media only screen and (max-width: 600px) {
        label{
